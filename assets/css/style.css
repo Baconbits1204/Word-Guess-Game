@@ -1,0 +1,58 @@
+
+
+header {
+    border: 3px solid black;
+    height: 300px;
+    widows: 300px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 10%;
+}
+
+.underscore {
+    border: 3px solid black;
+    height: 150px;
+    widows: 300px;
+    font-size: 100px;
+    text-align: center;
+    margin: 25px auto;
+    width: 80%;
+} 
+
+.rightGuess {
+    border: 3px solid black;
+    height: 150px;
+    widows: 300px;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px auto;
+    width: 80%;
+} 
+
+.wrongGuess {
+    border: 3px solid black;
+    height: 150px;
+    widows: 300px;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px auto;
+    width: 80%;
+} 
+
+html {
+    font-family: 'Indie Flower', cursive;
+}
+body{
+    background : url("../images/rickmorty.png");
+    background-size: cover;
+}
+
+.image{
+        background : url("../images/drunkie.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+} 
+
+

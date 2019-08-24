@@ -1,0 +1,118 @@
+<!-- <html>
+    <head>
+        <title>Hangman</title>
+            <script
+              src="https://code.jquery.com/jquery-3.4.1.min.js"
+              integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+              crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id='"container"'>
+            <div id="header">
+                <p>You have <span id="Lives">4</span>lives left <br>
+                There are <span id="numLetters">0</span>letters in this word</p>
+            </div>
+            </div>
+
+
+        </div>
+            <script src="./assets/javascript/game.js"></script>
+    </body>
+
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman</title>
+
+
+
+</head>
+
+<body>
+    <h1>HangMan</h1>
+</body>
+<div class="containter">
+    <header>
+        <h1>hangman game</h1>
+        <h3>Rick and Morty</h3>
+    </header>
+    <br>
+    <div class="underscore">  </div>
+    <br>
+    <div class="rightGuess">right guess</div>
+    <br>
+    <div class="wrongGuess">wrong guess</div>
+</div>
+
+
+<script src="assets/javascript/game.js"></script>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rick and Morty Hangman</title>
+	
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron image">
+			<h1>Rick and Morty Hangman</h1>
+			<p>SHOW ME WHAT YOU GOT</p>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Guess this word</h3>
+		</div>
+		<div class="panel-body">
+			<h2 id="wordToGuess">_ _ _ _ _ _ _</h2>
+		</div>
+	</div>
+	 
+	<div class="panel panel-default">
+	 	<div class="panel-body">
+	 		Wrong Guesses: <span id="wrongGuesses"></span>
+		</div>
+	</div>
+	
+	<div class="panel panel-default">
+		<div class="panel-body">
+			Guesses Left: <span id="numGuesses"></span>
+		</div>
+	</div>
+	
+	<div class="panel panel-default">
+		<div class="panel-body">
+			Win Counter: <span id="winCounter">0</span>
+		</div>
+	</div>
+	
+	<div class="panel panel-default">
+		<div class="panel-body">
+			Loss Counter:  <span id="lossCounter">0</span>
+		</div>
+	</div>
+	
+</div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
