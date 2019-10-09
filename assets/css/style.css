@@ -45,12 +45,14 @@ html {
     font-family: 'Indie Flower', cursive;
 }
 body{
-    background : url("../images/rickmorty.png");
-    background-size: cover;
+    background : url("../images/rickmorty-2.png");
+    background-size: contain;
+    background-repeat: repeat;
+    height: 100%;
 }
 
 .image{
-        background : url("../images/drunkie.png");
+        background : url("../images/panorama.png");
         background-size: cover;
         background-repeat: no-repeat;
 } 
